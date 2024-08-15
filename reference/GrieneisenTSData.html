@@ -70,42 +70,113 @@ investigate significance of longitudinal sampling at large
 sample sizes.</p>
 <p>This data set contains the 613 most prevalent taxa with a
 phylogenetic tree.</p>
-<p>Column metadata includes the following fields:</p><ul><li><p>sample:  Sample ID (character)</p></li>
-<li><p>baboon_id:  Baboon ID (factor)</p></li>
-<li><p>collection_date:  Sample collection date (date ; YYYY-MM-DD)</p></li>
-<li><p>sex:  Sex (factor; F/M)</p></li>
-<li><p>age:  Age (numeric)</p></li>
-<li><p>social_group:  Social group ID (factor)</p></li>
-<li><p>group_size:  Social group size (integer)</p></li>
-<li><p>rain_month_mm:  Rain per month(mm) (numeric)</p></li>
-<li><p>season:  Season (factor; dry/wet)</p></li>
-<li><p>hydro_year:  Hydro year (integer)</p></li>
-<li><p>month:  Month (integer)</p></li>
-<li><p>readcount:  Read count (numeric)</p></li>
-<li><p>plate:  Plate (factor)</p></li>
-<li><p>post_pcr_dna_ng:  Post PCR DNA(ng) (numeric)</p></li>
-<li><p>diet_PC1:  Diet Principal coordinate 1 (numeric)</p></li>
-<li><p>diet_PC2:  Diet Principal coordinate 2 (numeric)</p></li>
-<li><p>diet_PC3:  Diet Principal coordinate 3 (numeric)</p></li>
-<li><p>diet_PC4:  Diet Principal coordinate 4 (numeric)</p></li>
-<li><p>diet_PC5:  Diet Principal coordinate 5 (numeric)</p></li>
-<li><p>diet_PC6:  Diet Principal coordinate 6 (numeric)</p></li>
-<li><p>diet_PC7:  Diet Principal coordinate 7 (numeric)</p></li>
-<li><p>diet_PC8:  Diet Principal coordinate 8 (numeric)</p></li>
-<li><p>diet_PC9:  Diet Principal coordinate 9 (numeric)</p></li>
-<li><p>diet_PC10:  Diet Principal coordinate 10 (numeric)</p></li>
-<li><p>diet_PC11:  Diet Principal coordinate 11 (numeric)</p></li>
-<li><p>diet_PC12:  Diet Principal coordinate 12 (numeric)</p></li>
-<li><p>diet_PC13:  Diet Principal coordinate 13 (numeric)</p></li>
-<li><p>diet_shannon_h:  Dietary Shannon's H index (numeric)</p></li>
-<li><p>asv_richness:  Amplicon sequence variant (ASV) richness (integer)</p></li>
-<li><p>asv_shannon_h:  ASV Shannon's H index (numeric)</p></li>
-<li><p>pc1_bc:  Principal coordinate 1 Bray-Curtis dissimilarity (numeric)</p></li>
-<li><p>pc2_bc:  Principal coordinate 2 Bray-Curtis dissimilarity (numeric)</p></li>
-<li><p>pc3_bc:  Principal coordinate 3 Bray-Curtis dissimilarity (numeric)</p></li>
-<li><p>pc4_bc:  Principal coordinate 4 Bray-Curtis dissimilarity (numeric)</p></li>
-<li><p>pc5_bc:  Principal coordinate 5 Bray-Curtis dissimilarity (numeric)</p></li>
-</ul><p>Row metadata of the microbiome data contains taxonomic information on the
+<p>Column metadata includes the following fields:</p><dl><dt>sample</dt>
+<dd><p>Sample ID (character)</p></dd>
+
+<dt>baboon_id</dt>
+<dd><p>Baboon ID (factor)</p></dd>
+
+<dt>collection_date</dt>
+<dd><p>Sample collection date (date; YYYY-MM-DD)</p></dd>
+
+<dt>sex</dt>
+<dd><p>Sex (factor; F/M)</p></dd>
+
+<dt>age</dt>
+<dd><p>Age (numeric)</p></dd>
+
+<dt>social_group</dt>
+<dd><p>Social group ID (factor)</p></dd>
+
+<dt>group_size</dt>
+<dd><p>Social group size (integer)</p></dd>
+
+<dt>rain_month_mm</dt>
+<dd><p>Rain per month(mm) (numeric)</p></dd>
+
+<dt>season</dt>
+<dd><p>Season (factor; dry/wet)</p></dd>
+
+<dt>hydro_year</dt>
+<dd><p>Hydro year (integer)</p></dd>
+
+<dt>month</dt>
+<dd><p>Month (integer)</p></dd>
+
+<dt>readcount</dt>
+<dd><p>Read count (numeric)</p></dd>
+
+<dt>plate</dt>
+<dd><p>Plate (factor)</p></dd>
+
+<dt>post_pcr_dna_ng</dt>
+<dd><p>Post PCR DNA(ng) (numeric)</p></dd>
+
+<dt>diet_PC1</dt>
+<dd><p>Diet Principal coordinate 1 (numeric)</p></dd>
+
+<dt>diet_PC2</dt>
+<dd><p>Diet Principal coordinate 2 (numeric)</p></dd>
+
+<dt>diet_PC3</dt>
+<dd><p>Diet Principal coordinate 3 (numeric)</p></dd>
+
+<dt>diet_PC4</dt>
+<dd><p>Diet Principal coordinate 4 (numeric)</p></dd>
+
+<dt>diet_PC5</dt>
+<dd><p>Diet Principal coordinate 5 (numeric)</p></dd>
+
+<dt>diet_PC6</dt>
+<dd><p>Diet Principal coordinate 6 (numeric)</p></dd>
+
+<dt>diet_PC7</dt>
+<dd><p>Diet Principal coordinate 7 (numeric)</p></dd>
+
+<dt>diet_PC8</dt>
+<dd><p>Diet Principal coordinate 8 (numeric)</p></dd>
+
+<dt>diet_PC9</dt>
+<dd><p>Diet Principal coordinate 9 (numeric)</p></dd>
+
+<dt>diet_PC10</dt>
+<dd><p>Diet Principal coordinate 10 (numeric)</p></dd>
+
+<dt>diet_PC11</dt>
+<dd><p>Diet Principal coordinate 11 (numeric)</p></dd>
+
+<dt>diet_PC12</dt>
+<dd><p>Diet Principal coordinate 12 (numeric)</p></dd>
+
+<dt>diet_PC13</dt>
+<dd><p>Diet Principal coordinate 13 (numeric)</p></dd>
+
+<dt>diet_shannon_h</dt>
+<dd><p>Dietary Shannon's H index (numeric)</p></dd>
+
+<dt>asv_richness</dt>
+<dd><p>Amplicon sequence variant (ASV) richness (integer)</p></dd>
+
+<dt>asv_shannon_h</dt>
+<dd><p>ASV Shannon's H index (numeric)</p></dd>
+
+<dt>pc1_bc</dt>
+<dd><p>Principal coordinate 1 Bray-Curtis dissimilarity (numeric)</p></dd>
+
+<dt>pc2_bc</dt>
+<dd><p>Principal coordinate 2 Bray-Curtis dissimilarity (numeric)</p></dd>
+
+<dt>pc3_bc</dt>
+<dd><p>Principal coordinate 3 Bray-Curtis dissimilarity (numeric)</p></dd>
+
+<dt>pc4_bc</dt>
+<dd><p>Principal coordinate 4 Bray-Curtis dissimilarity (numeric)</p></dd>
+
+<dt>pc5_bc</dt>
+<dd><p>Principal coordinate 5 Bray-Curtis dissimilarity (numeric)</p></dd>
+
+
+</dl><p>Row metadata of the microbiome data contains taxonomic information on the
 Domain, Phylum, Class, Order, Family, Genus, and ASV levels.</p>
 <p>The row tree consists of a phylogenetic tree build using sequence
 information of 613 taxa.</p>
